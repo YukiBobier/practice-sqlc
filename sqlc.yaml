@@ -1,0 +1,7 @@
+version: 1
+packages:
+  - path: "internal/classicmodels"
+    name: "classicmodels"
+    engine: "mysql"
+    schema: "docker/mysql/docker-entrypoint-initdb.d/mysqlsampledatabase.sql"
+    queries: "query.sql"
